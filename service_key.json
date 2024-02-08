@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "digital-sea-sheets",
+  "private_key_id": "1b1a387a387f743800d9787baa1eb33189eafdf7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDNhOjlmj+G+VD/\nRJKoLCPrTZr3psDbY8uKOTYNag45QJ4YNkwnzlTC5CeFzug8tExaY2IXKZfnz97H\nfA8PdBKVaUPwIDvcSQ1dQIAhGTvpLMsj6Wr+TJnulkwrecbswseepVHcgvsLlf19\nG0sOmGuv4yieVN9cbMBBW764tPQ69QMqo5RRRRD1BKF5vp9dtf5uOr1flcRp+3fT\nmnotLO8tOMRcxsQUhuvtzUvvoquG++EJTuQQmFJmu3iy2+9aeHOJQe2j+IoX5WLU\nEl89HoI45LsRAYupF3pzB8NMeWtPTVTH1NIRFhnMGdzs5fRvE7bErp0TGQnkU9za\nnJ+VWde7AgMBAAECggEABClyCp2bi2ZcHgyWSGKQcvuWLPgLBXEEFln/PrlMQsY3\nYrfNcKxB1NUy+bI4IME+n0FOTg1xE+gxPj/vEXnhGyElF4/yNmKiVdDwZ1CFVpJU\n0MwxdvyNIiLtYEoDMxiPW1FEvZ7yFN4mN9TdfxUAxUXn34D01FXSyjVgljP6ktZf\nDmtFS18OZa1yG6YWrSBvMXfJpYB7LV9ceuphkVTysh+ScW05CkOwedRpjVTjjbcp\nPMgyEWn84r50VHjVXxwMFVGxvNgr3cnRi2w4hZONY2PjIOzkPw+G66G9QabemcxX\nICe5uCRS0y0uh80LaQJBmWsvQ5oqJ4cJymiN/HQtEQKBgQD1CCsQoaRgURnUcSDF\nLSaNSpFRIXxfSqWhwib/eVZ0pRPrlwtN8AR3hNyAcEF1hoktvBU1bjIXR6Y9Puuc\njXOJHgUl+Y98rVp6rrwbGVWiqau8TLJoZGWRs0Z+vtUl8RmrLV1X2lNfW4qCADR2\nUn29ttvNJHYOGBCzI4lB2qwFSwKBgQDWt/af6tecyqeOGbbE5duKXNumLtYKhgLC\noQ3L1jveyjCh7U61el3a9ebqeVjf2vQTZ7JVPWjXanAqpz+qGHSo1EcnLATu0YLm\n4K40GsTMFqTh7vdvZ9hUnAHHlIeDcmcNAgveKFmLT0jo3UeWFZPUiA/0uCBQYE1T\nKkMYWcihUQKBgQCK8FPC/XUAbFwyGueTBpQKn9KgZ1VnjyM2AqosSHgechBGkQIG\n8mcGAl8psP1dD6kvNqvr/Q0IKEd6CPh+b7KoeE5BBy42avGYCQZ+czIcpwrLHc43\n5V22bSo26ixgdEKyzmlUTGbj9jsmlckpooLMFSizPM54FWs6uJa2sbDC2wKBgQC8\nMMCXqN0RLw1sHl1ydYPV4U0ieipfTtVcgIv2++29drjpM3So2ncoUh3xpCmhCeai\nm2BSFWCubTuiJrRGAOk+j89NJees6TQx5vrH8C5MMgyReUClA/83KQTmR+f97Wck\nn4aHUBYrY3Ijps33XTIUNKzHcBniWIVtPr1PumF+AQKBgEB1xeoRllFRFLGAdjuB\nCrzMK66efofRAqjYlDRCnNPW45k/4tWLyJnUMN4jyS2rjhZWBn3/DAI7hdCBBUsI\nvg4Ge8O7nVzd1kdzIciN2laErK0Ho2Oxo7R09e6EY8VnqgzU0vPnedg6UeQYOhx4\nwuXfLDEC/7F5eYlwP3bc0SYZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "digital-sea@digital-sea-sheets.iam.gserviceaccount.com",
+  "client_id": "106750940014057360643",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/digital-sea%40digital-sea-sheets.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

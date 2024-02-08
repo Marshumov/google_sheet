@@ -1,0 +1,69 @@
+# This file was updated by Duplicator on 2022-12-05 13:43:19.
+# See the original_files_ folder for the original source_site_htaccess file.
+# BEGIN WordPress
+# Директивы (строки) между `BEGIN WordPress` и `END WordPress`
+# созданы автоматически и подлежат изменению только через фильтры WordPress.
+# Сделанные вручную изменения между этими маркерами будут перезаписаны.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+order allow,deny
+allow from all
+deny from 84.33.37.150
+deny from 192.166.230.128
+deny from 158.255.215.71
+deny from 178.33.93.88
+deny from 212.41.25.2
+deny from 158.58.168.61
+deny from 45.148.11.82
+deny from 124.121.187.48
+deny from 158.255.215.57
+deny from 194.226.97.135
+deny from 167.99.197.142
+deny from 146.120.158.22
+deny from 84.33.37.150
+deny from 192.166.230.128
+deny from 151.236.28.98 
+deny from 91.121.79.58 
+deny from 95.85.45.81 
+deny from 178.62.190.222 
+deny from 167.99.197.142 
+deny from 222.76.48.73 
+deny from 197.47.244.88 
+deny from 91.132.95.11
+deny from 109.197.205.114
+deny from 94.131.111.223
+deny from 193.235.147.241
+deny from 195.123.218.219
+deny from 212.90.124.123
+deny from 172.160.227.13
+deny from 80.240.196.210
+deny from 195.242.111.3
+deny from 37.19.223.9
+deny from 93.100.152.5 
+deny from 5.44.172.13 
+deny from 62.16.31.219
+deny from 46.35.252.130
+deny from 5.254.108.217
+deny from 102.165.54.126
+deny from 188.162.11.77 
+
+<Files tokens.txt>
+  Order deny,allow
+  Deny from all
+</Files>
+
+
+<Files service_key.json>
+  Order deny,allow
+  Deny from all
+</Files>
+
