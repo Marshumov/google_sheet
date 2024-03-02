@@ -6,12 +6,14 @@
   $spreadsheetId = "";
   $data = json_decode(file_get_contents('php://input'), true);
   $code = $data['code_service_sheet'];
+  $count_data = count($data['data']);
   require_once "./config/config.php";
   require_once "./controllers/telegram_notification.php"; 
   // Подключаем клиент Google таблиц
   require_once __DIR__ . '/vendor/autoload.php';
   //Данный КОД статичный и задается на js для блокировки спама
   if($code == '3252648628322435010') {
+    if($count_data> 0) {
       // Наш ключ доступа к сервисному аккаунту
       $googleAccountKeyFilePath = __DIR__ . '/service_key.json';
       putenv('GOOGLE_APPLICATION_CREDENTIALS=' . $googleAccountKeyFilePath);
@@ -65,7 +67,7 @@
       $values = array();
       
       foreach($data_array as $call ) {
-        $call_arr = [$call["type"], $call["status"], $call["time"], $call["id_schema"], $call["schema"], $call["from_phone"], $call["to_phone"], $call["who_answer"], $call["duration_all"], $call["duration_talking"], $call["new_client"], $call["mark"]];
+        $call_arr = [$call["type"], $call["status"], $call["time"], $call["idschema"], $call["schema"], $call["fromphone"], $call["tophone"], $call["whoanswer"], $call["durationall"], $call["durationtalking"], $call["newclient"], $call["mark"]];
         array_push($values, $call_arr);
      }
      
@@ -81,6 +83,10 @@
       sleep(1);
       telegram_post_notification("Добавлены новые данные в таблицу. Количество строк: ".$data['date_length'], $telegram_token, $telegram_chat_id);
     // sleep(1);
+    }
+    else {
+
+    }
   }
   else {
       telegram_post_notification("Неверный ключ", $telegram_token, $telegram_chat_id);
